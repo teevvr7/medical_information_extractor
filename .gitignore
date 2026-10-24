@@ -1,0 +1,36 @@
+# Python Virtual Environments
+venv/
+.venv/
+**/venv/
+ENV/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE and OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Scratch and Logs
+scratch/
+*.log
+*.tmp
+
+# Node (Frontend)
+node_modules/
+npm-debug.log*
